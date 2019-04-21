@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_menu_home"
+        android:title="@string/home_one" />
+
+    <item
+        android:id="@+id/need_blood"
+        android:icon="@drawable/ic_menu_admin"
+        android:orderInCategory="103"
+        android:title="@string/donor_list" />
+
+
+</menu>

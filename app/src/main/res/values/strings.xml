@@ -1,0 +1,198 @@
+<resources>
+    <string name="welcome">Welcome!</string>
+    <string name="calvo_linus">Calvo_Linus</string>
+    <string name="enter_name">Input Email</string>
+    <string name="password"> Password</string>
+    <string name="login">Login</string>
+    <string name="app_name">"Donate Blood Save Life"</string>
+    <string name="register">Register</string>
+    <string name="forgotten">Forgotten Password</string>
+    <string name="Username">Username</string>
+    <string name="registration">REGISTRATION</string>
+    <string name="name">Name</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="pass">Password</string>
+    <string name="pass_word">Pass_word</string>
+    <string name="email">Email</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="gender">Gender</string>
+    <string name="contact">Contact</string>
+    <string name="phone">Phone</string>
+    <string name="blood">Blood</string>
+    <string name="choose_your_blood">Choose_Your_Blood</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter_email_address">Enter_Email_Address</string>
+    <string name="sahau">Forgotten</string>
+    <string name="retrieve">Retrieve</string>
+    <string name="message_box">Message Box</string>
+    <string name="bt_back">BACK</string>
+    <string name="bt_reset_password">SEND</string>
+    <string name="send_via_mail">Send_Via_Mail</string>
+    <string name="your_mail">Your Mail</string>
+    <string name="Reg">REGISTER</string>
+    <string name="don_t_have_an_account_register_please">Don\'t have an account? Register please</string>
+    <string name="title_activity_nav">Home page</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_about">Send Feedback</string>
+    <string name="action_rate">Rate US!</string>
+    <string name="action_share">Share</string>
+    <string name="users">Users</string>
+    <string name="others">Others</string>
+    <!--<string name="phone">Phone</string>-->
+    <string name="adoz">Admin</string>
+    <string name="uzo">Users</string>
+    <string name="wengine">Others</string>
+    <string name="title_activity_splash_screen">splashScreen</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="input_email">Input Email</string>
+    <string name="karibu">Registration</string>
+    <string name="or">or</string>
+    <string name="facebook">Facebook</string>
+    <string name="title_activity_facebook_login">FacebookLogin</string>
+    <string name="facebook_app_id">1422531317853210</string>
+    <string name="fb_login_protocol_scheme">fb1422531317853210</string>
+    <string name="wich_will">Forgotten?</string>
+    <string name="already_a_user_login_string_don_t_have_an_account_register_please">Already a user? Login @string/don_t_have_an_account_register_please</string>
+    <string name="already_registered_login">Already Registered? Login</string>
+    <string name="location">Location</string>
+    <string name="enter_location">Enter Location</string>
+    <string name="title_activity_ma_map">Map</string>
+    <string name="save_life_in_blood_donation">Save Life In Blood Donation</string>
+    <string name="auth_failed" />
+    <string name="minimum_password" />
+
+    <string-array name="best_array">
+        <item>O+</item>
+        <item>O-</item>
+        <item>A+</item>
+        <item>B+</item>
+        <item>AB+</item>
+        <item>A-</item>
+        <item>B-</item>
+        <item>AB-</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_for_blood">Search for Blood</string>
+    <string name="blood_group">Blood Group</string>
+    <string name="search_blood">Search Blood</string>
+    <string name="why_should_you_give_blood">Why Should you give Blood</string>
+    <string name="giving_blood_saves_life_the_blood_you_give_is_a_lifeline_in_an_emergency_and_for_people_who_need_long_term_treatments_many_would_not_be_alive_today_if_donors_had_not_generously_given_their_blood_why_we_need_you_to_give_blood_we_need_over_100_blood_donations_every_day_to_treat_patients_in_need_for_people_to_give_blood_by_the_end_of_the_year_we_will_need_36000_new_donors_to_help_needy_patients">Giving Blood Saves Life. The Blood you give is a lifeline in an emergency and for people who need long-term treatments.Many would not be alive today if donors had not generously given their blood. Why we need you to give blood, we need over 100 blood donations every day to treat patients in need for people to give blood. By the end of the year we will need 36000 new donors to help needy patients.</string>
+    <string name="eligibility_requirement">Eligibility Requirement</string>
+    <string name="titus">If you are male, You must :\nBe healthy and feeling well \nBe at least 18 years old in most towns\nBe atleast 5 ft 1 inch \nWeigh at least 130lbs.\n</string>
+    <string name="chiegi">If you are female, You must :\nBe healthy and feeling well \nBe at least 18 years old in most towns\nBe atleast 5 ft 5 inch \nWeigh at least 150lbs.\n</string>
+    <string name="city">City</string>
+    <string name="need_blood">Need Blood??</string>
+    <string name="city_town">City/Town</string>
+    <string name="needed_group">Needed Group</string>
+
+    <string name="Endelea">Continue</string>
+    <string name="your_city">Your City</string>
+    <string name="show_on_map">Show on Map</string>
+    <string name="normal_map">normal_map</string>
+    <string name="hybrid_map">hybrid_map</string>
+    <string name="satellite_map">satellite_map</string>
+    <string name="terrain_map">terrain_map</string>
+    <string name="about_this">About</string>
+    <string name="share_this">Share</string>
+    <string name="links">Links</string>
+    <string name="home_one">Home</string>
+    <string name="logout">Logout</string>
+    <string name="be_a_donor_two">Be A Donor</string>
+    <string name="donor_list">Donor LIst</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="subject">Subject</string>
+    <string name="your_message">Your Message</string>
+    <string name="login_send">Login</string>
+
+    <string-array name="town_best">
+        <item>Nairobi</item>
+        <item>Mombasa</item>
+        <item>Kisumu</item>
+        <item>Eldoret</item>
+        <item>Naivasha</item>
+
+    </string-array>
+
+
+</resources>
+
+

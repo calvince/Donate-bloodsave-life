@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@mipmap/ic_werrason"
+    tools:context=".AboutUsActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_collapseMode="pin"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    <ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="false"
+        android:id="@+id/scrollview"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff0000"
+                android:textSize="20sp"
+                android:text="@string/why_should_you_give_blood"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:paddingTop="45dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:id="@+id/text1"
+                android:padding="10dp"
+                android:textColor="#ffff"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="@string/giving_blood_saves_life_the_blood_you_give_is_a_lifeline_in_an_emergency_and_for_people_who_need_long_term_treatments_many_would_not_be_alive_today_if_donors_had_not_generously_given_their_blood_why_we_need_you_to_give_blood_we_need_over_100_blood_donations_every_day_to_treat_patients_in_need_for_people_to_give_blood_by_the_end_of_the_year_we_will_need_36000_new_donors_to_help_needy_patients"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/eligibility_requirement"
+                android:textSize="20sp"
+                android:paddingStart="20dp"
+                android:paddingTop="8dp"
+                android:paddingEnd="20dp"
+                android:textColor="#ff0000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="@string/titus"
+                android:textColor="#ffff" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="#ffff"
+                android:text="@string/chiegi"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

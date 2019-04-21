@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "249886073321",
+    "firebase_url": "https://kuja-7f26b.firebaseio.com",
+    "project_id": "kuja-7f26b",
+    "storage_bucket": "kuja-7f26b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249886073321:android:948619c0a67983f7",
+        "android_client_info": {
+          "package_name": "com.example.calvo_linus.kuja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249886073321-2jjhavujkstpna6c6epigf7mlhlfkmnm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.calvo_linus.kuja",
+            "certificate_hash": "f0b69d0572e532780205314fdd91faea62067c85"
+          }
+        },
+        {
+          "client_id": "249886073321-knbuf8fcnbo8ui29lk0r25od3ffqrden.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEY8clatXEnO4g6Azkg21cySkTqUgd4BI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249886073321-knbuf8fcnbo8ui29lk0r25od3ffqrden.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

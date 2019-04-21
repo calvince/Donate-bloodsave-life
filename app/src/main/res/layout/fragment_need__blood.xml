@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    android:background="@mipmap/ic_werrason"
+    tools:context=".Need_Blood">
+
+
+
+
+ <LinearLayout
+android:layout_marginTop="20dp"
+android:layout_gravity="center_horizontal"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content">
+
+
+<TextView
+
+    android:text="@string/need_blood"
+    android:textSize="40sp"
+    android:textColor="#ffff"
+    android:textAlignment="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+ </LinearLayout>
+
+
+
+<LinearLayout
+android:layout_marginTop="100dp"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+
+
+<LinearLayout
+    android:layout_margin="5dp"
+    android:layout_marginStart="20sp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+
+        android:text="@string/city_town"
+        android:textSize="18sp"
+        android:layout_weight="1"
+        android:textColor="#ffff"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/needCity"
+         />
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_margin="5dp"
+    android:layout_marginStart="20sp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+
+        android:text="@string/needed_group"
+        android:textSize="18sp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:textColor="#ffff"
+        android:layout_height="wrap_content" />
+    <Spinner
+
+
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/needBlood"
+
+         />
+
+</LinearLayout>
+
+
+
+
+<LinearLayout
+    android:layout_margin="15dp"
+    android:layout_marginTop="20dp"
+    android:gravity="center"
+    android:layout_marginStart="20sp"
+    android:layout_marginEnd="20sp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/startSearch"
+        android:text="@string/Endelea"
+        android:background="@drawable/chora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
+
+
+
+</LinearLayout>
+
+</LinearLayout>

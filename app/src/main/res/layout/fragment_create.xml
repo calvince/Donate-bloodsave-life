@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@mipmap/ic_werrason"
+    android:layout_height="match_parent"
+    tools:context=".CreateFragment">
+
+    <TextView
+        android:id="@+id/tx_jina"
+        style="?android:textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textColorHighlight="#ff7eff15"
+        android:textColorHint="#ffff25e6"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="101dp"
+        android:text="@string/registration" />
+
+    <TextView
+        android:id="@+id/tx_Pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ed_Pass"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp"
+        android:text="@string/pass"
+        android:textAlignment="center"
+        android:textColor="#00ffec"
+        android:textStyle="bold"
+        tools:text="Passcode" />
+
+    <EditText
+        android:id="@+id/ed_Pass"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tx_jina"
+        android:layout_marginTop="117dp"
+        android:ems="10"
+        android:hint="@string/pass_word"
+        android:inputType="textPassword"
+        android:textColor="#00ffec"
+        android:textColorHighlight="#ff7eff15"
+        android:textColorHint="#ffff25e6" />
+
+    <TextView
+        android:id="@+id/tx_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tx_blood"
+        android:layout_below="@+id/tx_jina"
+        android:layout_marginTop="23dp"
+        android:text="@string/email"
+        android:textAlignment="center"
+        android:textColor="#00ffec"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/oporo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tx_Pass"
+        android:layout_centerVertical="true"
+        android:text="@string/blood_group"
+        android:textAlignment="center"
+        android:textColor="#00ffec"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/rb_male"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/rb_female"
+        android:layout_alignBottom="@+id/rb_female"
+        android:layout_alignEnd="@+id/ed_address"
+        android:hint="@string/male"
+        tools:text="Male" />
+
+    <RadioButton
+        android:id="@+id/rb_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="188dp"
+        android:layout_toStartOf="@+id/bt_dont"
+        android:hint="@string/female"
+        tools:text="Female" />
+
+    <TextView
+        android:id="@+id/tx_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rb_male"
+        android:layout_alignEnd="@+id/tx_Pass"
+        android:text="@string/gender"
+        android:textAlignment="center"
+        android:textColor="#00ffec"
+        android:textStyle="bold"
+        tools:text="Gender" />
+
+    <TextView
+        android:id="@+id/tx_Phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tx_Pass"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="211dp"
+        android:text="@string/contact"
+        android:textAlignment="center"
+        android:textColor="#00ffec"
+        android:textStyle="bold"
+        tools:text="Contact" />
+
+    <EditText
+        android:id="@+id/ed_Phone"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/tx_Phone"
+        android:layout_alignStart="@+id/ed_Pass"
+        android:ems="10"
+        android:hint="@string/phone"
+        android:inputType="phone"
+        android:textColor="#00ffec"
+        android:textColorHighlight="#ff7eff15"
+        android:textColorHint="#ffff25e6" />
+
+    <TextView
+        android:id="@+id/tx_blood"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_alignStart="@+id/tx_Phone"
+        android:layout_alignTop="@+id/ed_blood"
+        android:layout_marginTop="19dp"
+        android:text="@string/blood"
+        android:textAlignment="center"
+        android:textColor="#00ffec"
+        android:textStyle="bold"
+        tools:text="Blood" />
+
+    <Spinner
+        android:id="@+id/ed_blood"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/best_array"
+        android:layout_alignStart="@+id/tx_jina"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:prompt="@string/choose_your_blood"
+        android:textColor="#00ffec"
+        android:textColorHighlight="#ff7eff15"
+        android:textColorHint="#ffff25e6" />
+
+
+    <Button
+        android:id="@+id/bt_Reg"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+
+        android:layout_alignStart="@+id/tx_email"
+        android:layout_alignTop="@+id/bt_dont"
+        android:text="@string/Reg"
+        tools:text="REGISTER" />
+
+    <Button
+        android:id="@+id/bt_dont"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="73dp"
+        android:layout_marginEnd="68dp"
+        android:text="@string/cancel"
+        tools:text="CANCEL" />
+
+    <EditText
+        android:id="@+id/ed_address"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/tx_jina"
+        android:layout_alignTop="@+id/tx_email"
+        android:ems="10"
+        android:hint="@string/your_mail"
+        android:inputType="textEmailAddress"
+        android:textColor="#00ffec"
+        android:textColorHighlight="#ff7eff15"
+        android:textColorHint="#ffff25e6" />
+
+    <TextView
+        android:id="@+id/tx_big"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="18dp"
+        android:layout_toEndOf="@+id/bt_Reg"
+        android:textColor="#00ffec"
+        android:text="@string/already_registered_login" />
+
+    <TextView
+        android:id="@+id/tx_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/tx_email"
+        android:layout_marginBottom="150dp"
+        android:text="@string/location"
+        android:textAlignment="center"
+        android:textColor="#00ffec"
+        android:textStyle="bold"
+        tools:text="City" />
+
+
+    <RadioGroup
+        android:id="@+id/hezwa"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/ed_Pass"
+        android:layout_alignTop="@+id/rb_male"
+        android:gravity="fill_vertical"
+        />
+
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ed_Pass"
+        android:layout_alignTop="@+id/tx_location"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/city"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/town_best"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
